@@ -9,6 +9,9 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.zhongti.jicai"
+    },
+    "cordova-plugin-jikaicai": {
+      "PACKAGE_NAME": "com.zhongti.jicai"
     }
   },
   "dependent_plugins": {}

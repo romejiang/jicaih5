@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-jikaicai" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>cordova-plugin-jikaicai</name>
+     
+    <platform name="android">
+        <source-file src="src/android/JiKaiH5Activity.java" target-dir="src/com/zhongti/h5" />
+
+        <hook type="after_plugin_install" src="scripts/afterPluginInstall.js" />
+        <hook type="before_plugin_uninstall" src="scripts/beforePluginUninstall.js" />
+    </platform>
+</plugin>

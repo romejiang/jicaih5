@@ -20,11 +20,15 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.zhongti.jicai"
+    },
+    "cordova-plugin-jikaicai": {
+      "PACKAGE_NAME": "com.zhongti.jicai"
     }
   },
   "dependent_plugins": {},
   "modules": [],
   "plugin_metadata": {
-    "cordova-plugin-whitelist": "1.3.3"
+    "cordova-plugin-whitelist": "1.3.3",
+    "cordova-plugin-jikaicai": "0.0.1"
   }
 }

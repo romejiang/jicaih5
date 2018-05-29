@@ -6,5 +6,13 @@
     },
     "is_top_level": true,
     "variables": {}
+  },
+  "cordova-plugin-jikaicai": {
+    "source": {
+      "type": "local",
+      "path": "/Volumes/Macintosh/Users/rome/Projects/grails/lottery/jikaih5-cordova/node_modules/cordova-plugin-jikaicai"
+    },
+    "is_top_level": true,
+    "variables": {}
   }
 }

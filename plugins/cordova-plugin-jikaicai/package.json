@@ -1,0 +1,54 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/Users/rome/Projects/cordova/cordova-plugin-jikaicai",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/Users/rome/Projects/cordova/cordova-plugin-jikaicai",
+        "spec": "/Users/rome/Projects/cordova/cordova-plugin-jikaicai",
+        "type": "directory"
+      },
+      "/Volumes/Macintosh/Users/rome/Projects/grails/lottery/jikaih5-cordova"
+    ]
+  ],
+  "_from": "../../../../../../../../Users/rome/Projects/cordova/cordova-plugin-jikaicai",
+  "_id": "cordova-plugin-jikaicai@0.0.1",
+  "_inCache": true,
+  "_location": "/cordova-plugin-jikaicai",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/Users/rome/Projects/cordova/cordova-plugin-jikaicai",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/Users/rome/Projects/cordova/cordova-plugin-jikaicai",
+    "spec": "/Users/rome/Projects/cordova/cordova-plugin-jikaicai",
+    "type": "directory"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "file:../../../../../../../../Users/rome/Projects/cordova/cordova-plugin-jikaicai",
+  "_shasum": "c255c3fdf2ab2e139a68e79a983376e63f97949d",
+  "_shrinkwrap": null,
+  "_spec": "/Users/rome/Projects/cordova/cordova-plugin-jikaicai",
+  "_where": "/Volumes/Macintosh/Users/rome/Projects/grails/lottery/jikaih5-cordova",
+  "author": "",
+  "cordova": {
+    "id": "cordova-plugin-jikaicai",
+    "platforms": []
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-jikaicai",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "version": "0.0.1"
+}
