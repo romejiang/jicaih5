@@ -16,8 +16,8 @@
        specific language governing permissions and limitations
        under the License.
 */
-
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
+// apply plugin: 'com.android.application'
 
 buildscript {
     repositories {
@@ -30,6 +30,8 @@ buildscript {
 
     dependencies {
         classpath 'com.android.tools.build:gradle:3.0.0'
+        classpath 'com.hujiang.aspectjx:gradle-android-plugin-aspectjx:2.0.0'
+
     }
 }
 
@@ -160,11 +162,12 @@ android {
 
     defaultConfig {
         versionCode cdvVersionCode ?: new BigInteger("" + privateHelpers.extractIntFromManifest("versionCode"))
-        applicationId privateHelpers.extractStringFromManifest("package")
+        // applicationId privateHelpers.extractStringFromManifest("package")
 
         if (cdvMinSdkVersion != null) {
             minSdkVersion cdvMinSdkVersion
         }
+        multiDexEnabled true
     }
 
     lintOptions {
