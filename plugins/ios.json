@@ -1,0 +1,25 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-hot-code-push-plugin": {
+      "PACKAGE_NAME": "com.zhongti.jicai"
+    },
+    "cordova-plugin-jikaicai": {
+      "PACKAGE_NAME": "com.zhongti.jicai"
+    },
+    "cordova-plugin-wechat": {
+      "WECHATAPPID": "wx0e812b2326b3ccfb",
+      "PACKAGE_NAME": "com.zhongti.jicai"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.zhongti.jicai"
+    }
+  },
+  "dependent_plugins": {}
+}

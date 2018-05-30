@@ -13,6 +13,7 @@
   "dependencies": {
     "cordova-android": "^7.0.0",
     "cordova-hot-code-push-plugin": "^1.5.3",
+    "cordova-ios": "^4.5.4",
     "cordova-plugin-jikaicai": "file:///Users/rome/Projects/cordova/cordova-plugin-jikaicai",
     "cordova-plugin-wechat": "git+https://github.com/qyf94/cordova-plugin-wechat.git",
     "cordova-plugin-whitelist": "^1.3.3"
@@ -27,7 +28,8 @@
       }
     },
     "platforms": [
-      "android"
+      "android",
+      "ios"
     ]
   }
 }

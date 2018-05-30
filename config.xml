@@ -33,4 +33,5 @@
         <variable name="WECHATAPPID" value="wx0e812b2326b3ccfb" />
     </plugin>
     <engine name="android" spec="^7.0.0" />
+    <engine name="ios" spec="^4.5.4" />
 </widget>
