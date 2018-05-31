@@ -6,6 +6,8 @@
   "main": "index.js",
   "scripts": {
     "pre": "rm -Rf www/* && cp -Rf ../agent/dist/* www/ && cordova-hcp build && cordova clean",
+    "build": "cordova build android --release",
+    "copy": "cp -Rf  platforms/android/app/build/outputs/aar/app-release.aar /Volumes/Macintosh/Users/rome/Projects/androids/JiKaiH5/app/libs/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Apache Cordova Team",
